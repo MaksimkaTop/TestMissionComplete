@@ -1,0 +1,190 @@
+[1606229108.813][INFO]: Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 23436
+[1606229108.813][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1606229109.176][INFO]: [69e740718c52f25bedc6816ea76458ca] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Maks\\IdeaProjects\\TestMissionComplete\\build\\downloads\\1606229106736_15556_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Maks\\IdeaProjects\\TestMissionComplete\\build\\downloads\\1606229106736_15556_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1606229109.180][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Maks\\IdeaProjects\\TestMissionComplete\\build\\downloads\\1606229106736_15556_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1606229109.188][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1606229109.196][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Maks\AppData\Local\Temp\scoped_dir7952_936260178" data:,
+[1606229109.862][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1606229111.869][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1606229113.889][INFO]: [69e740718c52f25bedc6816ea76458ca] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.66",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+         "userDataDir": "C:\\Users\\Maks\\AppData\\Local\\Temp\\scoped_dir7952_936260178"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62522"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "69e740718c52f25bedc6816ea76458ca"
+}
+[1606229113.972][INFO]: [69e740718c52f25bedc6816ea76458ca] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1606229113.972][INFO]: Waiting for pending navigations...
+[1606229113.975][INFO]: Done waiting for pending navigations. Status: ok
+[1606229114.087][INFO]: Waiting for pending navigations...
+[1606229114.089][INFO]: Done waiting for pending navigations. Status: ok
+[1606229114.089][INFO]: [69e740718c52f25bedc6816ea76458ca] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1606229114.098][INFO]: [69e740718c52f25bedc6816ea76458ca] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1606229114.098][INFO]: [69e740718c52f25bedc6816ea76458ca] RESPONSE SetTimeouts
+[1606229114.110][INFO]: [69e740718c52f25bedc6816ea76458ca] COMMAND Navigate {
+   "url": "http://test-form.sibirix.ru/"
+}
+[1606229114.110][INFO]: Waiting for pending navigations...
+[1606229114.111][INFO]: Done waiting for pending navigations. Status: ok
+[1606229114.379][INFO]: Waiting for pending navigations...
+[1606229114.660][INFO]: Done waiting for pending navigations. Status: ok
+[1606229114.660][INFO]: [69e740718c52f25bedc6816ea76458ca] RESPONSE Navigate
+[1606229114.789][INFO]: [69e740718c52f25bedc6816ea76458ca] COMMAND DeleteAllCookies {
+
+}
+[1606229114.789][INFO]: Waiting for pending navigations...
+[1606229114.790][INFO]: Done waiting for pending navigations. Status: ok
+[1606229114.795][INFO]: Waiting for pending navigations...
+[1606229114.796][INFO]: Done waiting for pending navigations. Status: ok
+[1606229114.796][INFO]: [69e740718c52f25bedc6816ea76458ca] RESPONSE DeleteAllCookies
+[1606229114.804][INFO]: [69e740718c52f25bedc6816ea76458ca] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "localStorage.clear();"
+}
+[1606229114.804][INFO]: Waiting for pending navigations...
+[1606229114.805][INFO]: Done waiting for pending navigations. Status: ok
+[1606229114.809][INFO]: Waiting for pending navigations...
+[1606229114.810][INFO]: Done waiting for pending navigations. Status: ok
+[1606229114.810][INFO]: [69e740718c52f25bedc6816ea76458ca] RESPONSE ExecuteScript null
+[1606229114.817][INFO]: [69e740718c52f25bedc6816ea76458ca] COMMAND Quit {
+
+}
+[1606229114.968][INFO]: [69e740718c52f25bedc6816ea76458ca] RESPONSE Quit

@@ -1,0 +1,70 @@
+<html class="win chrome chrome8 webkit webkit5"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="cmsmagazine" content="2c2951bb57cffc1481be768a629d3a6e">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skillbox</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page-type="feedback" class="feedback-page">
+
+<div class="block-wrapper request">
+    <div class="form-wrapper">
+                <form class="form-request js-request-form" action="" method="post" enctype="multipart/form-data" novalidate="novalidate">
+            <label>
+                <b>Представьтесь, пожалуйста:</b>
+                <input class="required" type="text" name="name" maxlength="250" value="" aria-required="true" aria-invalid="false">
+                <span class="error-message"></span>
+            </label>
+            <label>
+                <b>Email</b>
+                <input class="required is-email" type="text" name="email" maxlength="250" value="" aria-required="true" aria-invalid="false">
+                <span class="error-message"></span>
+            </label>
+            <label>
+                <b>Телефон</b>
+                <input class="required" type="text" name="phone" maxlength="250" value="" aria-required="true" aria-invalid="false">
+                <span class="error-message"></span>
+            </label>
+            <label>
+                <b>Расскажите немного о вашем проекте:</b>
+                <textarea name="message"></textarea>
+                <span class="error-message"></span>
+            </label>
+            <label class="file-label js-dropzone ">
+                <i class="ico ico-clip">&nbsp;</i>
+                <span class="js-current-file"><span class="attach">Прикрепите файл</span>, если это необходимо (doc, jpg, pdf, макс. 1Мб)</span>
+                <span class="error-message"></span>
+                <input type="file" class="file-input" name="document">
+            </label>
+            <input type="submit" value="Оставить заявку" class="submit">
+        </form>
+        <div class="mailbox-top"></div>
+        <div class="mailbox-bottom"></div>
+            </div>
+</div>
+
+<div style="display:none">
+    <!-- Пара скрытых инпутов для некорректного обхода формы по табу -->
+    <input type="text" name="hidden-first" value="hello">
+    <input type="text" name="hidden-second" value="world">
+    <input type="text" name="hidden-third" value="hello">
+</div>
+
+<script src="js/libs/jquery.min.js"></script>
+<script src="js/libs/can.custom.min.js"></script>
+<script src="js/libs/jquery.validate.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+
+<script src="js/controllers/-pre-init.js"></script>
+<script src="js/controllers/page/feedback.js"></script>
+<script src="js/application.js"></script>
+
+
+
+</body></html>
